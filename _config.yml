@@ -1,14 +1,2 @@
-# Site settings
-title: My GitHub Portfolio
-description: A description for your site
-url: "https://<your-github-username>.github.io"
-baseurl: "" # Leave empty for the root site
-
-# Remote theme
-remote_theme: poole/hyde
-
-plugins:
-  - jekyll-remote-theme
-
-
+theme: minima
 
