@@ -12,9 +12,9 @@ Here are a few projects I have worked on:
 1. **Threat Intelligence - Digital Forensics Investigation** 
    - Description: In this project, I assisted in the investigation of a criminal on the run, who posted images with the caption, "I'm roaming free. You will never catch me." The objective was to analyze the attached images to extract critical information that could help locate the criminal.
 
-Using Homebrew, I installed ExifTool on my MacBook and leveraged Terminal to run the necessary commands to extract metadata from the images. This allowed me to retrieve important details such as the camera make and model, timestamp, and GPS coordinates embedded in the images. While the GPS coordinates initially pointed to the Pacific Ocean, I used TinEye for reverse image searching, which led me to discover the possible location of the image, revealing it to be Kathmandu, Nepal.
+   - Using Homebrew, I installed ExifTool on my MacBook and leveraged Terminal to run the necessary commands to extract metadata from the images. This allowed me to retrieve important details such as the camera make and model, timestamp, and GPS coordinates embedded in the images. While the GPS coordinates initially pointed to the Pacific Ocean, I used TinEye for reverse image searching, which led me to discover the possible location of the image, revealing it to be Kathmandu, Nepal.
 
-This project showcased my ability to combine digital forensics tools and investigative techniques to solve a real-world problem. It demonstrates my skills in metadata extraction, image analysis, and Threat intelligence research, and highlights my proficiency in using ExifTool and TinEye to gather and analyze evidence.
+   - This project showcased my ability to combine digital forensics tools and investigative techniques to solve a real-world problem. It demonstrates my skills in metadata extraction, image analysis, and Threat intelligence research, and highlights my proficiency in using ExifTool and TinEye to gather and analyze evidence.
    - Key Skills: Metadata Extraction · Command Line Proficiency · Geolocation Analysis
 
 2. **[Project Name](Link to the project)**  
