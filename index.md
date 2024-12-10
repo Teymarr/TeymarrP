@@ -15,39 +15,44 @@ Here are a few projects I have worked on:
    - Using Homebrew, I installed ExifTool on my MacBook and leveraged Terminal to run the necessary commands to extract metadata from the images. This allowed me to retrieve important details such as the camera make and model, timestamp, and GPS coordinates embedded in the images. While the GPS coordinates initially pointed to the Pacific Ocean, I used TinEye for reverse image searching, which led me to discover the possible location of the image, revealing it to be Kathmandu, Nepal.
 
    - This project showcased my ability to combine digital forensics tools and investigative techniques to solve a real-world problem. It demonstrates my skills in metadata extraction, image analysis, and Threat intelligence research, and highlights my proficiency in using ExifTool and TinEye to gather and analyze evidence.
-   - Key Skills: Metadata Extraction · Command Line Proficiency · Geolocation Analysis
+   - **Key Skills**: Metadata Extraction · Command Line Proficiency · Geolocation Analysis
 
-2. **[Project Name](Link to the project)**  
-   - Description: Brief description of the project, technologies used, and your role.
-   - Key accomplishments: What you achieved with this project (e.g., vulnerability analysis, tool development, etc.)
+2. **Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**  
+   - Description: Successfully completed the final challenge of the Dark Web Operations course by Security Blue. In this simulated law enforcement scenario, I was tasked with investigating a dark web marketplace used by drug traffickers. Using advanced tools such as the Tor browser and web inspection techniques, I gained access to a protected site and gathered intelligence on an ongoing criminal operation.
 
-*Repeat for other projects you've worked on.*
+   - **Key Skills**: Gaining access to a secure dark web site by employing advanced browsing techniques with Tor and using the "Inspect Element" tool.
+Decoding Base64-encoded data to retrieve critical user credentials necessary to log into the website.
+Analyzing blog content and posts to uncover evidence linking the user to drug trafficking activities.
+Identifying key details of an upcoming illegal shipment, including coordinates for the shipment’s destination.
+During this hands-on challenge, I used a combination of cybersecurity tools, data decryption methods, and investigative techniques to successfully uncover vital intelligence. My investigation led to the discovery of shipment coordinates, which were traced to a port in London, along with a precise delivery date for the illegal cargo.
+
 
 ## Skills
 Here are some of the skills I have acquired:
 
-- **Cybersecurity:** Incident Response, Threat Analysis, Vulnerability Assessment
-- **Programming:** Python, Bash scripting
-- **Networking:** TCP/IP, DNS, VPN, Firewalls, IDS/IPS
-- **Tools:** Splunk, Wireshark, Nmap, Metasploit
-- **Operating Systems:** Windows, Linux (Ubuntu, Kali)
+**Cybersecurity**: Incident Response, Threat Analysis, Security Operations, Cybersecurity Policy Compliance, Data Decryption, Dark Web Investigations, Vulnerability Assessment, Network Security
+**Programming**: Python, Bash scripting, Data Analytics (Python), Cybersecurity-related Automation
+**Networking**: TCP/IP, DNS, VPN, Firewalls, IDS/IPS, Network Security, Cyber Threat Detection
+**Tools**: Splunk, Wireshark, Nmap, Metasploit, Tor, Base64 Decoding, Inspect Element, Jekyll (for GitHub Pages), GitHub
+Operating Systems: macOS, Linux (Ubuntu, Kali)
 
-## Programs I Can Run
-These are the programs and environments I am proficient with:
+## Cybersecurity Tools:
+Splunk, Wireshark, Nmap, Metasploit, Tor, Base64 Decoding/Encoding Tools, Inspect Element, Kali Linux, Nessus, Snort, Burp Suite, CyberChef,
+## Programming and Scripting:
+Python, Bash, Jekyll, Git, Docker,
+## Networking and Systems Tools:
+Tcpdump, OpenVPN (using Tunnelblick or OpenVPN client), WiFi Analyzer (apps or built-in macOS wireless diagnostics), Vim/Emacs, VirtualBox/VMware, Xcode
+## Operating Systems and Environments:
+macOS, Linux, Docker,
+## Other Tools/Technologies:
+GitHub
+Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK)
+Google Earth
 
-- **Security Tools:** 
-  - Metasploit Framework
-  - Wireshark
-  - Splunk
-  - Nmap
-
-- **Development Tools:** 
-  - Visual Studio Code
-  - Git, GitHub
-  - Docker (for containerized environments)
-
-- **Cloud Platforms:** 
-  - AWS, Azure
+## Certifications:
+- ArcX Foundation Level Threat Analyst
+- ISC-2 Certified in Cybersecurity
+- Security Blue Team Junior Analyst
 
 ## Contact Information
-Feel free to reach out to me via my email: [Your Email]
+Feel free to reach out to me via my email: teymarr.page@proton.me
