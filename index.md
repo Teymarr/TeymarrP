@@ -30,11 +30,15 @@ During this hands-on challenge, I used a combination of cybersecurity tools, dat
 ## Skills
 Here are some of the skills I have acquired:
 
-**Cybersecurity**: Incident Response, Threat Analysis, Security Operations, Cybersecurity Policy Compliance, Data Decryption, Dark Web Investigations, Vulnerability Assessment, Network Security
-**Programming**: Python, Bash scripting, Data Analytics (Python), Cybersecurity-related Automation
-**Networking**: TCP/IP, DNS, VPN, Firewalls, IDS/IPS, Network Security, Cyber Threat Detection
-**Tools**: Splunk, Wireshark, Nmap, Metasploit, Tor, Base64 Decoding, Inspect Element, Jekyll (for GitHub Pages), GitHub
-Operating Systems: macOS, Linux (Ubuntu, Kali)
+   - **Cybersecurity**: Incident Response, Threat Analysis, Security Operations, Cybersecurity Policy Compliance, Data Decryption, Dark Web Investigations, Vulnerability Assessment, Network Security
+
+   - **Programming**: Python, Bash scripting, Data Analytics (Python), Cybersecurity-related Automation
+     
+   - **Networking**: TCP/IP, DNS, VPN, Firewalls, IDS/IPS, Network Security, Cyber Threat Detection
+     
+   - **Tools**: Splunk, Wireshark, Nmap, Metasploit, Tor, Base64 Decoding, Inspect Element, Jekyll (for GitHub Pages), GitHub
+     
+   - **Operating Systems**: macOS, Linux (Ubuntu, Kali)
 
 ## Cybersecurity Tools:
 Splunk, Wireshark, Nmap, Metasploit, Tor, Base64 Decoding/Encoding Tools, Inspect Element, Kali Linux, Nessus, Snort, Burp Suite, CyberChef,
