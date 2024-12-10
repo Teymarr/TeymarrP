@@ -1,7 +1,10 @@
 # Teymarr Page's Portfolio
 
 ## About Me
-Welcome to my portfolio! My name is Teymarr Page, and I am a cybersecurity enthusiast with a focus on incident response, threat analysis, and ethical hacking. 
+As an undergraduate cybersecurity professional specializing in threat and incident response, my skill set encompasses ethical hacking, hashing, and encoding techniques such as Base64. Additionally, I possess expertise in utilizing terminal commands to address intricate cybersecurity challenges. I am well-versed in dark web intelligence, including the utilization of tools like the Tor browser. Furthermore, I have gained practical experience in OSINT threat intelligence analysis, threat hunting, and ethical hacking methodologies.
+
+With a robust foundation in cybersecurity principles and practical applications, I am motivated to confront emerging threats and fortify digital environments through innovative and effective solutions.
+
 
 ## Projects
 Here are a few projects I have worked on:
