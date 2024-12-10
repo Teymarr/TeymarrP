@@ -1,4 +1,2 @@
-remote_theme: "mmistakes/minimal-mistakes"
-plugins:
-  - jekyll-feed
+remote_theme: poole/hyde
 
