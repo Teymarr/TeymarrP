@@ -1,4 +1,4 @@
-theme: minima
+theme: minimal-mistakes-jekyll
 title: "Teymarr Page"
 plugins:
   - jekyll-seo-tag
