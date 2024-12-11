@@ -1,20 +1,15 @@
-theme: jekyll-theme-chirpy
-title: "My Portfolio"
-description: "Welcome to my portfolio!"
-author: "Your Name"
-avatar: /assets/images/avatar.png  # Optional, you can skip this if you don't want to use a profile image
-bio: "A cybersecurity enthusiast."
-url: "https://your-username.github.io" # Set this to your GitHub Pages URL or your personal domain
-baseurl: ""  # Keep it empty if it's not a sub-path
-
-social:
-  github: "https://github.com/your-username"
-  linkedin: "https://linkedin.com/in/your-linkedin"
-  twitter: "https://twitter.com/your-twitter"
-
-# Optional: Customize these as you like
-theme: "jekyll-theme-chirpy"
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # or "contrast"
 
 
+# Site Settings
+locale                   : "en-US"
+rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
+title                    : "Welcome"
+title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
+name                     : "Teymarr"
+description              : "Portfolio 2025"
 
 
