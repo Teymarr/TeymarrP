@@ -1,4 +1,12 @@
-a {
-  color: red; /* You can also use hex color codes like #ff0000 */
+/* Override link color in posts section */
+.post a {
+  color: #ff0000 !important; /* Red for unvisited links */
 }
 
+.post a:hover {
+  color: #cc0000 !important; /* Darker red on hover */
+}
+
+.post a:visited {
+  color: #800000 !important; /* Different red for visited links */
+}
