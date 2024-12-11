@@ -54,7 +54,7 @@ This project showcased my proficiency in digital forensics, metadata extraction,
 
      
 
-2. **Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**
+**Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**
 I successfully completed the final challenge of the Dark Web Operations course by Security Blue. In this simulated law enforcement scenario, I was tasked with investigating a dark web marketplace used by drug traffickers. Using tools such as Tor and inspecting website elements, I gained access to a protected site to gather intelligence related to an ongoing criminal operation.
 
 ## Challenge Breakdown:
@@ -87,15 +87,20 @@ The date of the first post related to drug trafficking was established.
 The date of the latest post confirmed ongoing activity.
 The GPS coordinates from the sticky note were cross-referenced with Google Earth, revealing a seaport in England.
 Based on the post and the coordinates, it was concluded that the suspect was involved in drug trafficking operations, and the next shipment was set to arrive at Port of **Felixstowe, England**.
+
 **Skills Demonstrated**:
 
 This project required proficiency in several cybersecurity and investigative areas:
 
-**Dark Web Navigation**: Using the Tor browser to access hidden, secured sites on the dark web.
-**Credential Generation and Decryption**: Leveraging browser developer tools and Base64 encoding to generate and decode valid credentials.
-**Forensic Analysis of Digital Content**: Inspecting images, posts, and encoded data to extract and analyze critical information.
-**Geolocation Analysis**: Using GPS coordinates and Google Earth to locate the physical locations associated with the criminal’s activities.
-**Cyber Intelligence and Investigative Research**: Gathering evidence to tie the suspect to drug trafficking activities and uncover details related to the shipment.
+   - **Dark Web Navigation**: Using the Tor browser to access hidden, secured sites on the dark web.
+     
+   - **Credential Generation and Decryption**: Leveraging browser developer tools and Base64 encoding to generate and decode valid credentials.
+     
+   - **Forensic Analysis of Digital Content**: Inspecting images, posts, and encoded data to extract and analyze critical information.
+     
+   - **Geolocation Analysis**: Using GPS coordinates and Google Earth to locate the physical locations associated with the criminal’s activities.
+     
+   - **Cyber Intelligence and Investigative Research**: Gathering evidence to tie the suspect to drug trafficking activities and uncover details related to the shipment.
 
 
 ## **Skills**
