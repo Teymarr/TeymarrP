@@ -5,26 +5,22 @@ subtitle: "Cybersecurity Professional & Portfolio"
 description: "This portfolio highlights my skills, projects, and certifications as a cybersecurity professional."
 name: "Teymarr"
 locale: "en-US"
-baseurl: ""  # Leave empty for root directory, change if using subdirectory for GitHub Pages
+baseurl: ""  # Leave empty for root directory
 
 # Theme Settings
-remote_theme: "mmistakes/minimal-mistakes"  # If using a remote theme, this must be correctly specified
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
 
-# Theme skin (light, dark, or contrast)
-minimal_mistakes_skin: "dark"  # You can use "light" or "contrast" as options too
+# Social Media Links
+github_username: "TeymarrP"
+linkedin_username: "teymmarpage"
 
-# Social Media/Links
-github_username: "TeymarrP"  # Your GitHub username
-linkedin_username: "teymmarpage"  # Your LinkedIn username
-
-# Analytics (optional, add your tracking code here if needed)
-# google_analytics: "UA-12345678-1"  # Optional: Google Analytics ID
-
-# Pagination (if enabled, adjust the number of posts per page)
-paginate: 5  # Number of posts to show per page
+# Pagination
+paginate: 5
 
 # Jekyll Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-github-metadata
@@ -36,24 +32,24 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
 
-# Markdown Settings (use kramdown and GFM for GitHub-flavored Markdown)
+# Markdown Settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Permalinks (adjust to your desired URL structure)
+# Permalinks
 permalink: /:year/:month/:day/:title/
 
-# Exclude Files/Directories
+# Exclude Files
 exclude:
-  - README.md  # Exclude any unnecessary files from the build
+  - README.md
 
-# Include/Exclude Files for GitHub Pages (if necessary)
+# Include Directories
 include:
-  - _pages/  # Optional: add pages if needed
+  - _pages/
 
-# Enable GitHub Metadata
+# GitHub Metadata
 github:
   username: "TeymarrP"
-  repository: "TeymarrP"  # Change this to your repo name (must match the repository name exactly)
-  branch: "main"  # Branch where your pages are hosted (usually 'main' or 'master')
+  repository: "TeymarrP"
+  branch: "main"
