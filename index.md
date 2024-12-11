@@ -22,6 +22,8 @@ Here are a few projects I have worked on:
 
    - This project showcased my ability to combine digital forensics tools and investigative techniques to solve a real-world problem. It demonstrates my skills in metadata extraction, image analysis, and Threat intelligence research, and highlights my proficiency in using ExifTool and TinEye to gather and analyze evidence.
    - **Key Skills**: Metadata Extraction · Command Line Proficiency · Geolocation Analysis
+  
+     
 
 2. **Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**  
    - **Description**: Successfully completed the final challenge of the Dark Web Operations course by Security Blue. In this simulated law enforcement scenario, I was tasked with investigating a dark web marketplace used by drug traffickers. Using advanced tools such as the Tor browser and web inspection techniques, I gained access to a protected site and gathered intelligence on an ongoing criminal operation.
@@ -33,7 +35,7 @@ Identifying key details of an upcoming illegal shipment, including coordinates f
 During this hands-on challenge, I used a combination of cybersecurity tools, data decryption methods, and investigative techniques to successfully uncover vital intelligence. My investigation led to the discovery of shipment coordinates, which were traced to a port in London, along with a precise delivery date for the illegal cargo.
 
 
-## Skills
+## **Skills**
 Here are some of the skills I have acquired:
 
    - **Cybersecurity**: Incident Response, Threat Analysis, Security Operations, Cybersecurity Policy Compliance, Data Decryption, Dark Web Investigations, Vulnerability Assessment, Network Security
@@ -71,5 +73,6 @@ Colorado State University Global **2024-2026**
 **Organizations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association
 
 ## Contact Information
-teymarr.page@proton.me
-[LinkedIn](https://www.linkedin.com/in/teymarrpage/)
+**TEYMARR.PAGE@PROTON.ME**
+
+**[LinkedIn](https://www.linkedin.com/in/teymarrpage/)**
