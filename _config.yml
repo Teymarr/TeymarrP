@@ -1,8 +1,1 @@
 theme: minimal-mistakes-jekyll
-title: "Teymarr Page"
-plugins:
-  - jekyll-seo-tag
-
-# Correctly link custom CSS
-css:
-  - "/assets/css/custom.css"
