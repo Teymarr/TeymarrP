@@ -1,15 +1,61 @@
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # or "contrast"
-
-
 # Site Settings
-locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Welcome"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Teymarr"
-description              : "Portfolio 2025"
+title: "Welcome"
+title_separator: "-"
+subtitle: "Cybersecurity Professional & Portfolio"
+description: "This portfolio highlights my skills, projects, and certifications as a cybersecurity professional."
+name: "Teymarr"
+locale: "en-US"
+baseurl: ""  # Leave empty for root directory, change if using subdirectory for GitHub Pages
 
+# Theme and Remote Theme (minimal mistakes Jekyll theme)
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Theme skin (light, dark, or contrast)
+minimal_mistakes_skin: "dark"  # Can also use "light" or "contrast"
+
+# Social Media/Links
+github_username: "Teymarr"  # Your GitHub username
+linkedin_username: "teymmarpage"  # Your LinkedIn username
+
+# Analytics (optional, add your tracking code here if needed)
+# google_analytics: "UA-12345678-1"  # Optional: Google Analytics ID
+
+# Pagination (if enabled, adjust the number of posts per page)
+paginate: 5  # Number of posts to show per page
+
+# Jekyll Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-github-metadata
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+# Markdown Settings (use kramdown and GFM for GitHub-flavored Markdown)
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Permalinks (adjust to your desired URL structure)
+permalink: /:year/:month/:day/:title/
+
+# Exclude Files/Directories
+exclude:
+  - README.md  # Exclude any unnecessary files from the build
+
+# Include/Exclude Files for GitHub Pages (if necessary)
+include:
+  - _pages/  # Optional: add pages if needed
+
+# Enable GitHub Metadata
+github:
+  username: "Teymarr"
+  repository: "TeymarrP"  # Change this to your repo name
+  branch: "main"  # Branch where your pages are hosted (usually 'main' or 'master')
 
