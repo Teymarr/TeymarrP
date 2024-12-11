@@ -11,5 +11,6 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Teymarr"
 description              : "Portfolio 2025"
+css:  - assets/css/style.css
 
 
