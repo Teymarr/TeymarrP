@@ -7,15 +7,15 @@ name: "Teymarr"
 locale: "en-US"
 baseurl: ""  # Leave empty for root directory, change if using subdirectory for GitHub Pages
 
-# Theme and Remote Theme (minimal mistakes Jekyll theme)
-theme: "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes"
+# Theme Settings
+theme: "jekyll-theme-primer"  # Make sure to use a valid theme name if you're using a different one
+remote_theme: "mmistakes/minimal-mistakes"  # If using a remote theme, this must be correctly specified
 
 # Theme skin (light, dark, or contrast)
-minimal_mistakes_skin: "dark"  # Can also use "light" or "contrast"
+minimal_mistakes_skin: "dark"  # You can use "light" or "contrast" as options too
 
 # Social Media/Links
-github_username: "Teymarr"  # Your GitHub username
+github_username: "TeymarrP"  # Your GitHub username
 linkedin_username: "teymmarpage"  # Your LinkedIn username
 
 # Analytics (optional, add your tracking code here if needed)
@@ -55,7 +55,6 @@ include:
 
 # Enable GitHub Metadata
 github:
-  username: "Teymarr"
-  repository: "TeymarrP"  # Change this to your repo name
+  username: "TeymarrP"
+  repository: "TeymarrP"  # Change this to your repo name (must match the repository name exactly)
   branch: "main"  # Branch where your pages are hosted (usually 'main' or 'master')
-
