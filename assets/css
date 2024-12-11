@@ -12,3 +12,18 @@
     align-items: flex-start;
     margin-bottom: 20px;
 }
+/* Custom Styles */
+body {
+    background-color: #000000;  /* Black background */
+    color: #808080;  /* Grey text */
+}
+
+/* Optional: Change link color */
+a {
+    color: #999999;  /* Lighter grey for links */
+}
+
+/* Optional: Customize header color */
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;  /* White text for headers */
+}
