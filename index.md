@@ -26,16 +26,14 @@ Splunk, Wireshark, Nmap, Metasploit, Tor, Base64 Decoding/Encoding, Inspect Elem
 **Operating Systems**:
 macOS, Linux (Ubuntu, Kali), Docker.
 
-## Education
-**Colorado State University Global**: 06/2024-02/2026
+## **Education**
+**Colorado State University Global**: June 2024 - February 2026
 
 **Cumulative GPA**: 3.70/4.00
 
-**Bachelor of Science**: Cybersecurity
+Bachelor of Science in Cybersecurity with specializations in Python & Data Analytics, Intelligence & Homeland Security.
 
-**Specializations**: Python & Data Analytics, Intelligence & Homeland Security
-
-**Organizations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association
+**Affiliations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association.
 
 ## Contact Information
 **TEYMARR.PAGE@PROTON.ME**
