@@ -11,8 +11,6 @@ With a robust foundation in cybersecurity principles and practical applications,
 - Security Blue Team Junior Analyst
 
 ## **Skills**
-Here are some of the skills I have acquired:
-
 **Cybersecurity Skills**:
 Incident Response, Threat Analysis, Security Operations, Cybersecurity Policy Compliance, Data Decryption, Dark Web Investigations, Vulnerability Assessment, Network Security, Cyber Threat Detection, and Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK).
 
