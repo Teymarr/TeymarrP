@@ -1,6 +1,4 @@
 # Teymarr Page's Portfolio
-plugins:
-  - jekyll-include-cache
 
 
 ## About Me
