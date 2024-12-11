@@ -10,9 +10,7 @@ With a robust foundation in cybersecurity principles and practical applications,
 - ArcX Foundation Level Threat Analyst
 - ISC-2 Certified in Cybersecurity
 - Security Blue Team Junior Analyst
-- CompTIA Network+
-- CompTIA Security+
-- CompTIA CySa+
+
 
 ## Projects
 Here are a few projects I have worked on:
