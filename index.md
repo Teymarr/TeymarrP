@@ -23,6 +23,8 @@ Here are a few projects I have worked on:
    - **Key Skills**: Metadata Extraction · Command Line Proficiency · Geolocation Analysis
   
    --------------------------------------
+
+
      
 
 3. **Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**  
