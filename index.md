@@ -22,9 +22,10 @@ Here are a few projects I have worked on:
    - This project showcased my ability to combine digital forensics tools and investigative techniques to solve a real-world problem. It demonstrates my skills in metadata extraction, image analysis, and Threat intelligence research, and highlights my proficiency in using ExifTool and TinEye to gather and analyze evidence.
    - **Key Skills**: Metadata Extraction · Command Line Proficiency · Geolocation Analysis
   
+   --------------------------------------
      
 
-2. **Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**  
+3. **Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**  
    - **Description**: Successfully completed the final challenge of the Dark Web Operations course by Security Blue. In this simulated law enforcement scenario, I was tasked with investigating a dark web marketplace used by drug traffickers. Using advanced tools such as the Tor browser and web inspection techniques, I gained access to a protected site and gathered intelligence on an ongoing criminal operation.
 
    - **Key Skills**: Gaining access to a secure dark web site by employing advanced browsing techniques with Tor and using the "Inspect Element" tool.
