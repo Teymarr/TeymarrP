@@ -1,11 +1,11 @@
 Home
 
-## Hey! I'm Teymarr 👋
+## **Hey! I'm Teymarr** 👋
 As an undergraduate cybersecurity professional specializing in threat and incident response, my skill set encompasses ethical hacking, hashing, and encoding techniques such as Base64. Additionally, I possess expertise in utilizing terminal commands to address intricate cybersecurity challenges. I am well-versed in dark web intelligence, including the utilization of tools like the Tor browser. Furthermore, I have gained practical experience in OSINT threat intelligence analysis, threat hunting, and ethical hacking methodologies. **If you’re interested, you can check out some of my favorite projects I’ve worked on in my free time at the bottom of the page**.
 
 With a robust foundation in cybersecurity principles and practical applications, I am motivated to confront emerging threats and fortify digital environments through innovative and effective solutions.
 
-## Certifications:
+## **Certifications**:
 - ArcX Foundation Level Threat Analyst
 - ISC-2 Certified in Cybersecurity
 - Security Blue Team Junior Analyst
