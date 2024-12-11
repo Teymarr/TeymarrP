@@ -1,5 +1,4 @@
 # Teymarr Page's Portfolio
-![My Profile Picture](https://github.com/Teymarr/TeymarrP/blob/main/avatar.png?raw=true)
 
 
 ## About Me
@@ -7,6 +6,13 @@ As an undergraduate cybersecurity professional specializing in threat and incide
 
 With a robust foundation in cybersecurity principles and practical applications, I am motivated to confront emerging threats and fortify digital environments through innovative and effective solutions.
 
+## Certifications:
+- ArcX Foundation Level Threat Analyst
+- ISC-2 Certified in Cybersecurity
+- Security Blue Team Junior Analyst
+- CompTIA Network+
+- CompTIA Security+
+- CompTIA CySa+
 
 ## Projects
 Here are a few projects I have worked on:
@@ -20,7 +26,7 @@ Here are a few projects I have worked on:
    - **Key Skills**: Metadata Extraction · Command Line Proficiency · Geolocation Analysis
 
 2. **Dark Web Operations – Intelligence Gathering & Drug Trafficking Case**  
-   - Description: Successfully completed the final challenge of the Dark Web Operations course by Security Blue. In this simulated law enforcement scenario, I was tasked with investigating a dark web marketplace used by drug traffickers. Using advanced tools such as the Tor browser and web inspection techniques, I gained access to a protected site and gathered intelligence on an ongoing criminal operation.
+   - **Description**: Successfully completed the final challenge of the Dark Web Operations course by Security Blue. In this simulated law enforcement scenario, I was tasked with investigating a dark web marketplace used by drug traffickers. Using advanced tools such as the Tor browser and web inspection techniques, I gained access to a protected site and gathered intelligence on an ongoing criminal operation.
 
    - **Key Skills**: Gaining access to a secure dark web site by employing advanced browsing techniques with Tor and using the "Inspect Element" tool.
 Decoding Base64-encoded data to retrieve critical user credentials necessary to log into the website.
@@ -55,10 +61,12 @@ GitHub
 Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK)
 Google Earth
 
-## Certifications:
-- ArcX Foundation Level Threat Analyst
-- ISC-2 Certified in Cybersecurity
-- Security Blue Team Junior Analyst
+## Education
+Colorado State University Global **2024-2026**
+3.70 Cumulative GPA
+Bachelor of Science: Cybersecurity
+**Specializations**: Python & Data Analytics, Intelligence & Homeland Security
+**Organizations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association
 
 ## Contact Information
 Feel free to reach out to me via my email: teymarr.page@proton.me
