@@ -1,5 +1,10 @@
 theme: minima
 title: "Teymarr Page"
-
+theme: minima
+plugins:
+  - jekyll-seo-tag
+# Add custom CSS file
+css:
+  - "/assets/css/custom.css"
 
 
