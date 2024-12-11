@@ -30,10 +30,15 @@ Skills Demonstrated:
 
 This project highlighted several important skills in digital forensics and threat intelligence, **including**:
 
-**Metadata Extraction**: Using ExifTool to extract detailed metadata from images, such as camera model, timestamp, and GPS coordinates, which were crucial for identifying the criminal's location.
-**Geolocation Analysis**: The ability to interpret and analyze geographic data embedded in image files and refine it through additional tools like TinEye for reverse image searching.
-**Digital Forensics**: Leveraging forensic techniques to gather and analyze evidence from digital media, applying both technical knowledge and investigative skills to solve the case.
-**Critical Thinking and Problem Solving**: The ability to connect seemingly disparate pieces of information to uncover the location of the criminal and further the investigation.
+   - **Metadata Extraction**: Using ExifTool to extract detailed metadata from images, such as camera model, timestamp, and GPS coordinates, which were crucial for identifying the criminal's location.
+
+   - **Geolocation Analysis**: The ability to interpret and analyze geographic data embedded in image files and refine it through additional tools like TinEye for reverse image searching.
+     
+   - **Digital Forensics**: Leveraging forensic techniques to gather and analyze evidence from digital media, applying both technical knowledge and investigative skills to solve the case.
+     
+   - **Critical Thinking and Problem Solving**: The ability to connect seemingly disparate pieces of information to uncover the location of the criminal and further the investigation.
+
+     
 **Tools Used**:
 
 **ExifTool**: For extracting metadata from images to gather important details like camera model, timestamp, and GPS coordinates.
