@@ -64,9 +64,9 @@ Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK)
 Google Earth
 
 ## Education
-Colorado State University Global **2024-2026**
+**Colorado State University Global** June 2024-April 2026
 
-**3.70** Cumulative GPA
+**Cumulative GPA**: 3.70/4.00
 
 **Bachelor of Science**: Cybersecurity
 
