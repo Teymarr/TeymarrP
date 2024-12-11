@@ -63,9 +63,13 @@ Google Earth
 
 ## Education
 Colorado State University Global **2024-2026**
-3.70 Cumulative GPA
-Bachelor of Science: Cybersecurity
+
+**3.70** Cumulative GPA
+
+**Bachelor of Science**: Cybersecurity
+
 **Specializations**: Python & Data Analytics, Intelligence & Homeland Security
+
 **Organizations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association
 
 ## Contact Information
