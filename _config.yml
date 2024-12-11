@@ -1,12 +1,8 @@
 theme: minima
 title: "Teymarr Page"
-theme: minima
 plugins:
   - jekyll-seo-tag
 
-# Add custom CSS file (correct location outside of plugins)
-sass:
-  load_paths:
-    - "/assets/css/custom.css"
-
-
+# Correctly link custom CSS
+css:
+  - "/assets/css/custom.css"
