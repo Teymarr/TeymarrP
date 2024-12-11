@@ -1,0 +1,14 @@
+<img src="https://github.com/Teymarr/TeymarrP/raw/main/avatar.png" alt="My Profile Picture" style="width:150px;height:150px;border-radius:50%;">
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Space between the image and the contact info */
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
