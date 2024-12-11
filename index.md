@@ -71,10 +71,5 @@ Colorado State University Global **2024-2026**
 **Organizations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association
 
 ## Contact Information
-Feel free to reach out to me via my email: teymarr.page@proton.me
-
-## Connect with Me
-
-You can find me on LinkedIn! Feel free to connect with me there.
-
+teymarr.page@proton.me
 [LinkedIn](https://www.linkedin.com/in/teymarrpage/)
