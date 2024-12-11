@@ -1,29 +1,4 @@
-<img src="https://github.com/Teymarr/TeymarrP/raw/main/avatar.png" alt="My Profile Picture" style="width:150px;height:150px;border-radius:50%;">
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px; /* Space between the image and the contact info */
-}
-
-.profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
-}
-/* Custom Styles */
-body {
-    background-color: #000000;  /* Black background */
-    color: #808080;  /* Grey text */
-}
-
-/* Optional: Change link color */
 a {
-    color: #999999;  /* Lighter grey for links */
+  color: red; /* You can also use hex color codes like #ff0000 */
 }
 
-/* Optional: Customize header color */
-h1, h2, h3, h4, h5, h6 {
-    color: #ffffff;  /* White text for headers */
-}
