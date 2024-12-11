@@ -1,3 +1,4 @@
+Home
 
 ## About Me
 As an undergraduate cybersecurity professional specializing in threat and incident response, my skill set encompasses ethical hacking, hashing, and encoding techniques such as Base64. Additionally, I possess expertise in utilizing terminal commands to address intricate cybersecurity challenges. I am well-versed in dark web intelligence, including the utilization of tools like the Tor browser. Furthermore, I have gained practical experience in OSINT threat intelligence analysis, threat hunting, and ethical hacking methodologies.
