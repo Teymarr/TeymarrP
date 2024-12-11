@@ -14,7 +14,7 @@ With a robust foundation in cybersecurity principles and practical applications,
 ## Projects
 Here are a few projects I have worked on:
 
-1. **Threat Intelligence - Digital Forensics Investigation** 
+**Threat Intelligence - Digital Forensics Investigation** 
 This project involved assisting in the investigation of a criminal on the run, who posted images with the caption, "I'm roaming free. You will never catch me." The goal was to analyze these images to extract crucial information that could help track down the criminal's location.
 
 **Steps Taken**:
