@@ -8,7 +8,6 @@ locale: "en-US"
 baseurl: ""  # Leave empty for root directory, change if using subdirectory for GitHub Pages
 
 # Theme Settings
-theme: "jekyll-theme-primer"  # Make sure to use a valid theme name if you're using a different one
 remote_theme: "mmistakes/minimal-mistakes"  # If using a remote theme, this must be correctly specified
 
 # Theme skin (light, dark, or contrast)
