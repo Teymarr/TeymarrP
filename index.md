@@ -9,8 +9,11 @@ With a robust foundation in cybersecurity principles and practical applications,
 
 ## **Certifications**:
 - ArcX Foundation Level Threat Analyst
-- ISC-2 Certified in Cybersecurity
-- Security Blue Team Junior Analyst
+- ArcX Cyber Threat Intelligence Practitioner (CTI)
+- ISC-2 Certified in Cybersecurity (CC)
+- Security Blue Team Junior Analyst (BTJA)
+- Security Blue Team Level 1 (BTL1)
+- CompTIA Security+
 
 ## **Skills**
 **Cybersecurity Skills**:
