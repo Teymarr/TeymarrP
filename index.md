@@ -1,7 +1,7 @@
 Home
 
 ## **Hey! I'm Teymarr** 👋
-As a first-generation undergraduate cybersecurity professional specializing in threat and incident response, my skill set encompasses ethical hacking, hashing, and encoding techniques such as Base64. Additionally, I possess expertise in utilizing terminal commands to address intricate cybersecurity challenges. I am well-versed in dark web intelligence, including the utilization of tools like the Tor browser. Furthermore, I have gained practical experience in OSINT threat intelligence analysis, threat hunting, and ethical hacking methodologies.
+As a first-generation undergraduate cybersecurity professional specializing in Blue Team operations, I focus on threat detection, incident response, and securing digital environments. My expertise includes ethical hacking, hashing, and encoding techniques such as Base64, as well as leveraging terminal commands to solve complex cybersecurity challenges. I am also well-versed in dark web intelligence, utilizing tools like the Tor browser for research and threat analysis. In addition, I bring hands-on experience in OSINT threat intelligence, threat hunting, and employing ethical hacking methodologies to identify and mitigate potential risks.
 
 **If you are interested, you can explore some of my favorite projects I have worked on in my free time at the bottom of the page.**
 
