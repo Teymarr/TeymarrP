@@ -8,12 +8,31 @@ As a first-generation undergraduate cybersecurity professional specializing in t
 With a robust foundation in cybersecurity principles and practical applications, I am motivated to confront emerging threats and fortify digital environments. **If you require my assistance, please find my contact information at the bottom of this page**.
 
 ## **Certifications**:
-- ArcX Foundation Level Threat Analyst
-- ArcX Cyber Threat Intelligence Practitioner (CTI)
-- ISC-2 Certified in Cybersecurity (CC)
-- Security Blue Team Junior Analyst (BTJA)
-- Security Blue Team Level 1 (BTL1)
-- CompTIA Security+
+- **ArcX**: Cyber Threat Intelligence 101 (CTI101)
+- **ArcX**: Cyber Threat Intelligence Practitioner (CTI)
+- **ISC2**: Certified in Cybersecurity (CC)
+- **Security Blue Team**: Junior Analyst (BTJA)
+- **Security Blue Team**: Level 1 (BTL1)
+- **CompTIA**: Security+
+
+## **Certificate of Completion**
+**Introduction to Network Analysis**:
+Demonstrated understanding of basic networking fundamentals, including analyzing PCAP files using Wireshark and TCPDump. Analyzed malicious traffic from mock compromised systems.
+
+**Introduction to OSINT**:
+Proficient in Open Source Intelligence (OSINT) tools and techniques. Applied OSINT methodologies to support defenders, attackers, and businesses effectively.
+
+**Introduction to Digital Forensics**:
+Gained expertise in Linux file structures, command-line navigation, zip cracking, steganography, and forensics fundamentals. Conducted a forensic investigation on a mock disk image.
+
+**Introduction to Threat Hunting**:
+Skilled in collecting and correlating indicators of compromise (IOC) to identify malware using tools such as Redline and IOC Editor.
+
+**Introduction to Vulnerability Management**:
+Experienced in vulnerability management processes, conducting scans with Nessus, analyzing scan results, and prioritizing remediation based on severity.
+
+**Introduction to Dark Web Operations**:
+Acquired knowledge of clear, deep, and dark web operations, including law enforcement, security team, and criminal activities. Conducted actionable intelligence collection from dark web sites.
 
 ## **Skills**
 **Cybersecurity Skills**:
