@@ -56,8 +56,6 @@ Tor Browser, ExifTool, TinEye, Splunk, Wireshark, Nmap, Metasploit, Inspect Elem
 **Operating Systems**:
 macOS, Linux (Ubuntu, Kali), Docker.
 
-**Operating Systems**:
-macOS, Linux (Ubuntu, Kali), Docker.
 
 ## **Education**
 **Colorado State University Global**: June 2024 - February 2026
@@ -69,7 +67,7 @@ Bachelor of Science in Cybersecurity with specializations in Python & Data Analy
 **Affiliations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association.
 
 ## Contact Information
-For inquiries, collaborations, or professional connections, reach out via:
-**TEYMARR.PAGE@PROTON.ME**
 
-**[LinkedIn](https://www.linkedin.com/in/teymarrpage/)**
+For inquiries, collaborations, or professional connections, reach out via:
+- **TEYMARR.PAGE@PROTON.ME**
+- **[LinkedIn](https://www.linkedin.com/in/teymarrpage/)**
