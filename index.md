@@ -8,12 +8,12 @@ As a first-generation undergraduate cybersecurity professional specializing in t
 With a robust foundation in cybersecurity principles and practical applications, I am motivated to confront emerging threats and fortify digital environments. **If you require my assistance, please find my contact information at the bottom of this page**.
 
 ## **Certifications**:
+- **CompTIA**: Security+
+- **ISC2**: Certified in Cybersecurity (CC)
 - **ArcX**: Cyber Threat Intelligence 101 (CTI101)
 - **ArcX**: Cyber Threat Intelligence Practitioner (CTI)
-- **ISC2**: Certified in Cybersecurity (CC)
 - **Security Blue Team**: Junior Analyst (BTJA)
 - **Security Blue Team**: Level 1 (BTL1)
-- **CompTIA**: Security+
 
 ## **Certificate of Completion**
 **Introduction to Network Analysis**:
@@ -36,16 +36,25 @@ Acquired knowledge of clear, deep, and dark web operations, including law enforc
 
 ## **Skills**
 **Cybersecurity Skills**:
-Incident Response, Threat Analysis, Security Operations, Cybersecurity Policy Compliance, Data Decryption, Dark Web Investigations, Vulnerability Assessment, Network Security, Cyber Threat Detection, and Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK).
+Incident Response, Threat Analysis, Security Operations, Cyber Threat Detection, Vulnerability Assessment, Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK).
+
+**Digital Forensics & Investigative Skills**:
+Metadata Extraction, Command-Line Proficiency, Geolocation Analysis, Reverse Image Search, Digital Media Evidence Analysis, Critical Thinking, and Problem Solving.
+
+**Dark Web & Ethical Hacking**:
+Dark Web Navigation, Credential Generation and Decryption, Base64 Encoding/Decoding, Digital Content Forensics, Website Element Inspection, Investigative Research, and Evidence Collection.
 
 **Programming & Automation**:
-Python, Bash Scripting, Data Analytics (Python), Cybersecurity-related Automation, Git, Jekyll (for GitHub Pages), Docker.
+Python, Bash Scripting, Data Analytics, Cybersecurity Automation, Git, Jekyll (for GitHub Pages), Docker.
 
 **Networking**:
-TCP/IP, DNS, VPN, Firewalls, IDS/IPS, OpenVPN, Network Security, and WiFi Analysis.
+TCP/IP, DNS, VPN, Firewalls, IDS/IPS, OpenVPN, Network Security, WiFi Analysis.
 
 **Tools & Technologies**:
-Splunk, Wireshark, Nmap, Metasploit, Tor, Base64 Decoding/Encoding, Inspect Element, Nessus, Snort, Burp Suite, CyberChef, VirtualBox/VMware, Xcode, GitHub, and Google Earth.
+Tor Browser, ExifTool, TinEye, Splunk, Wireshark, Nmap, Metasploit, Inspect Element, Nessus, Snort, Burp Suite, CyberChef, Google Earth, VirtualBox/VMware, Xcode, GitHub.
+
+**Operating Systems**:
+macOS, Linux (Ubuntu, Kali), Docker.
 
 **Operating Systems**:
 macOS, Linux (Ubuntu, Kali), Docker.
@@ -60,6 +69,7 @@ Bachelor of Science in Cybersecurity with specializations in Python & Data Analy
 **Affiliations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association.
 
 ## Contact Information
+For inquiries, collaborations, or professional connections, reach out via:
 **TEYMARR.PAGE@PROTON.ME**
 
 **[LinkedIn](https://www.linkedin.com/in/teymarrpage/)**
