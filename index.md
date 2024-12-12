@@ -9,11 +9,12 @@ With a robust foundation in cybersecurity principles and practical applications,
 
 ## **Certifications**:
 - **CompTIA**: Security+
+- **CompTIA**: Network+
+- **CompTIA**: CySA+
 - **ISC2**: Certified in Cybersecurity (CC)
 - **ArcX**: Cyber Threat Intelligence 101 (CTI101)
-- **ArcX**: Cyber Threat Intelligence Practitioner (CTI)
 - **Security Blue Team**: Junior Analyst (BTJA)
-- **Security Blue Team**: Level 1 (BTL1)
+
 
 ## **Certificate of Completion**
 **Introduction to Network Analysis**:
