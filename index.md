@@ -64,7 +64,7 @@ macOS, Linux (Ubuntu, Kali), Docker.
 
 **Cumulative GPA**: 3.70/4.00
 
-Bachelor of Science in Cybersecurity with specializations in Python & Data Analytics, Intelligence & Homeland Security.
+**Bachelor of Science**: in Cybersecurity with specializations in Python & Data Analytics, Intelligence & Homeland Security.
 
 **Affiliations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association.
 
