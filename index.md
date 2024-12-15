@@ -71,4 +71,3 @@ macOS, Linux (Ubuntu, Kali), Docker.
 
 For inquiries, collaborations, or professional connections, reach out via:
 - **TEYMARR.PAGE@PROTON.ME**
-- **[LinkedIn](https://www.linkedin.com/in/teymarrpage/)**
