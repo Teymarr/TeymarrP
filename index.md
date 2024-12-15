@@ -11,7 +11,8 @@ With a robust foundation in cybersecurity principles and practical applications,
 - **Security Blue Team**: Level 1 (BTL1) 
 - **Security Blue Team**: Junior Analyst (BTJA)
 - **ISC2**: Certified in Cybersecurity (CC)
-- **CompTIA**: CySA+
+- **ArcX**: Cyber Threat Intelligence Practitioner (CTI)
+- **ArcX**: Advanced Cyber Threat Intelligence Practitioner (Advanced CTI)
 
 
 
