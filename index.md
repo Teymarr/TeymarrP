@@ -8,6 +8,9 @@ As a first-generation undergraduate cybersecurity professional specializing in B
 With a robust foundation in cybersecurity principles and practical applications, I am motivated to confront emerging threats and fortify digital environments. **If you require my assistance, please find my contact information at the bottom of this page**.
 
 ## **Certifications**:
+- **Security Blue Team**: Level 1
+- **CompTIA**: Security+
+- **CompTIA**: CySA+
 - **Security Blue Team**: Junior Analyst (BTJA)
 - **ISC2**: Certified in Cybersecurity (CC)
 - **ArcX**: Cyber Threat Intelligence Practitioner (CTI)
