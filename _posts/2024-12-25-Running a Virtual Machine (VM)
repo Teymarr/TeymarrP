@@ -1,4 +1,8 @@
-
+---
+title: "Running a Virtual Machine (VM)"
+date: 2024-12-25
+layout: post
+---
 
 Hello everyone, 
 Teymarr here! Today, I’m thrilled to share my experience running a virtual machine (VM) for the first time on my Apple Silicon (M2) Mac using UTM. From the initial confusion about Linux and macOS’s Unix roots, to downloading and building a Windows on ARM ISO via UUP Dump, this journey was full of little bumps—and plenty of learning moments. In this post, I’ll walk you through each step in detail, including the terminal commands I used, the problems I faced, and how I solved them.
