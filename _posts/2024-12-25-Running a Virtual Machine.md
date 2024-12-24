@@ -3,126 +3,46 @@ title: "Running a Virtual Machine (VM)"
 date: 2024-12-25
 layout: post
 ---
+Hello everyone, Teymarr here! Today, I’m recounting my full experience setting up a Windows on ARM virtual machine (VM) on my Apple Silicon (M2) Mac. I started with UTM, navigated through numerous dependency hurdles, removed references to chntpw, and overcame unexpected folder-structure issues. In the end, I successfully created a working Windows on ARM ISO using UUP Dump. Below is the detailed blog post capturing every twist and turn along the way.
 
-Hello everyone, 
-Teymarr here! Today, I’m thrilled to share my experience running a virtual machine (VM) for the first time on my Apple Silicon (M2) Mac using UTM. From the initial confusion about Linux and macOS’s Unix roots, to downloading and building a Windows on ARM ISO via UUP Dump, this journey was full of little bumps—and plenty of learning moments. In this post, I’ll walk you through each step in detail, including the terminal commands I used, the problems I faced, and how I solved them.
+## **Why Run Windows on ARM on an M2 Mac?**
 
-Why a VM on Apple Silicon?
+Experimentation & Learning: Especially in cybersecurity, it’s useful to have multiple operating systems at your disposal for testing.
+ARM Architecture: Apple’s M2 chip means we need ARM-based OS images rather than traditional x86.
+Isolation: Using a VM preserves my primary macOS environment while still giving me a place to install and test Windows.
 
-Exploration: I wanted to try running Windows on my Mac while still keeping my primary macOS environment intact.
-Experimentation: Working in cybersecurity, it’s valuable to have a test environment that won’t affect my main operating system.
-Apple Silicon Challenge: Traditional Windows ISOs (x86_64) don’t natively run on M2. Instead, I needed Windows on ARM.
-Tools & Software
+## **Tools & Software**
 
-UTM: A popular virtualization/emulation tool for macOS, particularly for M1/M2.
-UUP Dump: An online resource for building a Windows on ARM ISO.
-Homebrew: The package manager for macOS to install command-line tools.
-Step 1: Installing UTM
+**UTM**: A popular virtualization/emulation tool for macOS, particularly for M1/M2.
 
-Download UTM
-I grabbed UTM from the official website.
-Move UTM to Applications
+**UUP Dump**: An online resource for building a Windows on ARM ISO.
+
+**Homebrew**: The package manager for macOS to install command-line tools.
+
+## **Step 1**: Installing UTM
+
+**Download UTM**:
+I grabbed UTM from https://mac.getutm.app
+
+**Move UTM to Applications**:
 Drag-and-drop the .app file into Applications to install.
-Open UTM
+
+**Open UTM**:
 If macOS warns you about an unidentified developer, go to System Settings → Privacy & Security and click “Open Anyway.”
-Step 2: Obtaining a Windows on ARM ISO via UUP Dump
 
-Traditional Windows ISOs (for x86) won’t run natively under Apple Virtualization on M2, so I needed a Windows on ARM image.
+## **Step 2: Obtaining a Windows on ARM ISO via UUP Dump**
+Traditional Windows ISOs (for x86) won’t run natively under Apple Virtualization on M2, so I needed a **Windows on ARM image**.
 
-2.1 Download the UUP Dump Scripts
-Visit UUP Dump.
-Select an ARM64 build of Windows 10/11 (I chose Windows 11).
-Download the .zip archive containing scripts (e.g., uup_download_macos.sh) and extraction tools.
-2.2 Extract the Scripts
-Unzip the downloaded folder (mine was named 26100).
-Navigate to it in Terminal:
-cd ~/Downloads/26100
-Step 3: Installing Dependencies via Homebrew
+## **2.1 Download the UUP Dump Scripts**
+1. Visit https://uupdump.net
+2. Select an ARM64 build of Windows 10/11 (I chose Windows 11).
+3. I selected the arm64 for the most recent publicly released build.
+4. Download the .zip archive containing scripts (e.g., uup_download_macos.sh) and extraction tools.
 
-When I first ran the script, I kept hitting errors about missing tools. UUP Dump needs several dependencies:
+## 2.2 Extract the Scripts
+1. Unzip the downloaded folder (mine was named 26100).
+   
+2. Navigate to it in Terminal:
+![Bash](https://github.com/user-attachments/assets/88aa937e-4bd0-450c-8876-1be88db902a6)
 
-Install Homebrew (if you haven’t):
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-Install required packages:
-brew install aria2 cabextract wimlib cdrtools
-aria2 – Parallel file downloader
-cabextract – Extracts Microsoft .cab files
-wimlib (includes wimlib-imagex) – Handles .wim Windows images
-cdrtools (includes mkisofs) – Creates the final ISO
-Note: The script also checks for chntpw, but that’s no longer in the main Homebrew repositories. It isn’t strictly required for building the ISO.
-
-Step 4: Bypassing the chntpw Check
-
-4.1 Editing the Script
-The script initially stops if it can’t find chntpw. To skip that:
-
-Open the script in Nano:
-cd ~/Downloads/26100
-nano uup_download_macos.sh
-Locate the dependency check near the top:
-for prog in aria2c cabextract wimlib-imagex chntpw; do
-    which $prog &>/dev/null 2>&1 && continue;
-
-    echo "$prog does not seem to be installed"
-    echo "Check the readme.unix.md for details"
-    exit 1
-done
-Remove chntpw from that list:
-for prog in aria2c cabextract wimlib-imagex; do
-    which $prog &>/dev/null 2>&1 && continue;
-
-    echo "$prog does not seem to be installed"
-    echo "Check the readme.unix.md for details"
-    exit 1
-done
-Save and exit:
-Press Ctrl+O, then Enter to save.
-Press Ctrl+X to exit Nano.
-4.2 Running the Script Again
-With chntpw removed from the checks:
-
-chmod +x uup_download_macos.sh  # Only if necessary
-./uup_download_macos.sh
-Now it should download the converters and retrieve the UUP set from Microsoft servers, eventually compiling a Windows on ARM .iso file.
-
-Step 5: Creating the VM in UTM
-
-5.1 Launch UTM
-Open UTM from Applications.
-Create a New VM:
-Click “Create a New Virtual Machine” → “Virtualize” (for ARM-based OS).
-Select ARM64 ISO or “Boot from ISO image.”
-5.2 Choose the Windows on ARM ISO
-In UTM, set the ISO you created (.iso file from the UUP Dump script) as your boot image.
-If asked about Apple Virtualization or QEMU, try Apple Virtualization first for better performance on an M2 Mac.
-5.3 Finalize Settings
-CPU & Memory: Start with 2–4 CPU cores and 4–8 GB of RAM (depending on your Mac’s RAM).
-Storage: At least 20 GB for Windows.
-Network: Usually the default NAT is fine for internet connectivity.
-Step 6: Installing Windows on ARM
-
-Boot the VM: It should detect the ISO and launch the familiar Windows installer.
-Follow On-Screen Prompts:
-Choose your region, keyboard layout, and edition (if prompted).
-Create a user account.
-Wait for the installation to complete.
-First Boot: Once installed, Windows may update drivers or configure optimizations for ARM.
-Common Pitfalls & Troubleshooting
-
-UEFI Shell: If you see a UEFI shell, it means the VM didn’t detect a bootable ISO. Double-check you selected the ARM64 ISO and used “Virtualize” (not Emulate) for an M2 Mac.
-Missing Dependencies: As soon as the script complains that “X does not seem to be installed,” run:
-brew install <package>
-chntpw Error: Bypass by removing it from the script’s dependency checks, as described.
-Performance: Make sure you’re using Apple Virtualization if you have an ARM ISO. QEMU emulation is slower but can be used to run x86 systems if needed.
-Conclusion
-
-Setting up a Windows on ARM VM on an M2 Mac is a bit more hands-on than traditional Intel-based virtualization, but the process is a terrific learning experience. By editing scripts, installing dependencies, and working through each error message, I (Teymarr) learned a great deal about how virtualization works under the hood.
-
-Now I have a functioning Windows VM on my M2 Mac—ready for testing, learning, or any other Windows-specific tasks I might need. If you’re in a similar position, I hope this guide helps you navigate the same hurdles with fewer headaches.
-
-Thank you for reading, and best of luck with your own virtualization adventures! If you have any questions or run into more issues, feel free to reach out in the comments.
-
-—
-Written by Teymarr, who is excited to keep exploring virtualization and cybersecurity on an M2 Mac.
