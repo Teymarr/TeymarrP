@@ -19,7 +19,7 @@ Isolation: Using a VM preserves my primary macOS environment while still giving 
 
 **Homebrew**: The package manager for macOS to install command-line tools.
 
-## **Step 1**: Installing UTM
+## **Step 1**: **Installing UTM**
 
 **Download UTM**:
 I grabbed UTM from https://mac.getutm.app
@@ -33,7 +33,7 @@ If macOS warns you about an unidentified developer, go to System Settings → Pr
 ## **Step 2: Obtaining a Windows on ARM ISO via UUP Dump**
 Traditional Windows ISOs (for x86) won’t run natively under Apple Virtualization on M2, so I needed a **Windows on ARM image**.
 
-## **2.1 Download the UUP Dump Scripts**
+## 2.1 Download the UUP Dump Scripts
 1. Visit https://uupdump.net
 2. Select an ARM64 build of Windows 10/11 (I chose Windows 11).
 3. I selected the arm64 for the most recent publicly released build.
@@ -88,7 +88,7 @@ With chntpw removed from the checks:
 Now it should download the converters and retrieve the UUP set from Microsoft servers, eventually compiling a Windows on ARM .iso file.
 
 
-## Step 5: Creating the VM in UTM
+## **Step 5: Creating the VM in UTM**
 
 **5.1 Launch UTM**
 **Open UTM** from Applications.
@@ -105,7 +105,7 @@ If asked about Apple Virtualization or QEMU, try Apple Virtualization first for 
 **Storage**: At least 20 GB for Windows.
 **Network**: Usually the default NAT is fine for internet connectivity.
 
-## Step 6: Installing Windows on ARM
+## **Step 6: Installing Windows on ARM**
 
 **Boot the VM**: It should detect the ISO and launch the familiar Windows installer.
 **Follow On-Screen Prompts**:
@@ -120,7 +120,7 @@ If asked about Apple Virtualization or QEMU, try Apple Virtualization first for 
 
 And there you go! You’ve successfully run your first virtual machine. Virtual Machines (VMs) provide a secure environment for testing potentially harmful scripts and executing experimental code. They also allow developers to work on projects with specific configurations and dependencies, ensuring compatibility across various operating systems.
 
-## Conclusion
+## **Conclusion**
 
 Setting up a Windows on ARM VM on an M2 Mac is a bit more hands-on than traditional Intel-based virtualization, but the process is a terrific learning experience. By editing scripts, installing dependencies, and working through each error message, I (Teymarr) learned a great deal about how virtualization works under the hood.
 
@@ -128,7 +128,7 @@ Now I have a functioning Windows VM on my M2 Mac—ready for testing, learning, 
 
 Thank you for reading, and best of luck with your own virtualization adventures! If you have any questions or run into more issues, feel free to reach out if you need assistance.
 
-## Common Pitfalls & Troubleshooting
+## **Common Pitfalls & Troubleshooting**
 
 1. **UEFI Shell**: If you see a UEFI shell, it means the VM didn’t detect a bootable ISO. Double-check you selected the ARM64 ISO and used “Virtualize” (not Emulate) for an M2 Mac.
 
