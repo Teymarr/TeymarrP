@@ -81,6 +81,69 @@ The script initially stops if it can’t find chntpw. To skip that:
    Press **Ctrl+O**, then **Enter** to save.
    Press **Ctrl+X** to exit Nano.
 
+**4.2 Running the Script Again**
+With chntpw removed from the checks:
+![Bash-5](https://github.com/user-attachments/assets/9c625114-ab07-4108-9635-2200d663b786)
+
+Now it should download the converters and retrieve the UUP set from Microsoft servers, eventually compiling a Windows on ARM .iso file.
+
+
+## Step 5: Creating the VM in UTM
+
+**5.1 Launch UTM**
+**Open UTM** from Applications.
+**Create a New VM**:
+Click “Create a New Virtual Machine” → “Virtualize” (for ARM-based OS).
+Select ARM64 ISO or “Boot from ISO image.”
+
+**5.2 Choose the Windows on ARM ISO**
+In **UTM**, set the ISO you created (.iso file from the UUP Dump script) as your boot image.
+If asked about Apple Virtualization or QEMU, try Apple Virtualization first for better performance on an M2 Mac.
+
+**5.3 Finalize Settings**
+**CPU & Memory**: Start with 2–4 CPU cores and 4–8 GB of RAM (depending on your Mac’s RAM).
+**Storage**: At least 20 GB for Windows.
+**Network**: Usually the default NAT is fine for internet connectivity.
+
+## Step 6: Installing Windows on ARM
+
+**Boot the VM**: It should detect the ISO and launch the familiar Windows installer.
+**Follow On-Screen Prompts**:
+
+1. Choose your region, keyboard layout, and edition (if prompted).
+
+2. Create a user account.
+
+3. Wait for the installation to complete.
+
+4. **First Boot**: Once installed, Windows may update drivers or configure optimizations for ARM.
+
+And there you go! You’ve successfully run your first virtual machine. Virtual Machines (VMs) provide a secure environment for testing potentially harmful scripts and executing experimental code. They also allow developers to work on projects with specific configurations and dependencies, ensuring compatibility across various operating systems.
+
+## Conclusion
+
+Setting up a Windows on ARM VM on an M2 Mac is a bit more hands-on than traditional Intel-based virtualization, but the process is a terrific learning experience. By editing scripts, installing dependencies, and working through each error message, I (Teymarr) learned a great deal about how virtualization works under the hood.
+
+Now I have a functioning Windows VM on my M2 Mac—ready for testing, learning, or any other Windows-specific tasks I might need. If you’re in a similar position, I hope this guide helps you navigate the same hurdles with fewer headaches.
+
+Thank you for reading, and best of luck with your own virtualization adventures! If you have any questions or run into more issues, feel free to reach out if you need assistance.
+
+## Common Pitfalls & Troubleshooting
+
+1. **UEFI Shell**: If you see a UEFI shell, it means the VM didn’t detect a bootable ISO. Double-check you selected the ARM64 ISO and used “Virtualize” (not Emulate) for an M2 Mac.
+
+2. **Missing Dependencies**: As soon as the script complains that “X does not seem to be installed,” run:
+   ![Bash-6](https://github.com/user-attachments/assets/9dce45f9-5ebf-434c-b6ef-05d03198b1a2)
+
+3. **chntpw Error**: Bypass by removing it from the script’s dependency checks, as described.
+
    
+4. **Performance**: Make sure you’re using Apple Virtualization if you have an ARM ISO. QEMU emulation is slower but can be used to run x86 systems if needed.
+
+
+
+
+
+
 
 
