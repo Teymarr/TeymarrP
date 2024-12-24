@@ -74,7 +74,8 @@ The script initially stops if it can’t find chntpw. To skip that:
    ![Bash-3](https://github.com/user-attachments/assets/96b37853-b4dc-4219-875b-be4aec57feb4)
 
 3. **Remove "chntpw" from that list**:
-   ![Bash-4](https://github.com/user-attachments/assets/9adb2c6b-84ac-44e8-9e29-1bd3ff770083
+  ![Bash-4](https://github.com/user-attachments/assets/dc37adb1-6b18-4a8c-94e7-6fcc3c4c9bb3)
+
 
 4. **Save and Exit**:
    Press **Ctrl+O**, then **Enter** to save.
