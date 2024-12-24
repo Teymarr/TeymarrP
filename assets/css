@@ -1,12 +1,12 @@
-/* Override link color in posts section */
-.post a {
-  color: #ff0000 !important; /* Red for unvisited links */
+body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* White text */
 }
 
-.post a:hover {
-  color: #cc0000 !important; /* Darker red on hover */
+a {
+    color: #4caf50; /* Optional: Change hyperlink color to something more visible */
 }
 
-.post a:visited {
-  color: #800000 !important; /* Different red for visited links */
+a:hover {
+    color: #81c784; /* Optional: Lighter green for hover effect */
 }
