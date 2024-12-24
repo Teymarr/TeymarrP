@@ -45,4 +45,41 @@ Traditional Windows ISOs (for x86) won’t run natively under Apple Virtualizati
 2. Navigate to it in Terminal:
 ![Bash](https://github.com/user-attachments/assets/88aa937e-4bd0-450c-8876-1be88db902a6)
 
+## Step 3: Installing Dependencies via Homebrew
+When I first ran the script, I kept hitting errors about missing tools. UUP Dump needs several dependencies:
+I already have homebrew installed, so I decided to see if I could batch install everything.
+
+1. **Install Required Packages**
+![Bash](https://github.com/user-attachments/assets/5c24aa1f-0a60-4bbd-bb95-635f7d1ec0a7)
+
+**aria2** – Parallel file downloader
+
+**cabextract** – Extracts Microsoft .cab files
+
+**wimlib** (includes wimlib-imagex) – Handles .wim Windows images
+
+**cdrtools** (includes mkisofs) – Creates the final ISO
+
+**Note**: The script also checks for chntpw, but that’s no longer in the main Homebrew repositories. It isn’t strictly required for building the ISO.
+
+
+## Step 4: Bypassing the chntpw Check
+**4.1 Editing the Script**
+The script initially stops if it can’t find chntpw. To skip that:
+
+1. **Open the script in Nano**
+   ![Bash-2](https://github.com/user-attachments/assets/9960bf48-f773-4224-a1c7-affab1eb97bd)
+
+2. **Locate the dependency check near the top**:
+   ![Bash-3](https://github.com/user-attachments/assets/96b37853-b4dc-4219-875b-be4aec57feb4)
+
+3. **Remove "chntpw" from that list**:
+   ![Bash-4](https://github.com/user-attachments/assets/9adb2c6b-84ac-44e8-9e29-1bd3ff770083
+
+4. **Save and Exit**:
+   Press **Ctrl+O**, then **Enter** to save.
+   Press **Ctrl+X** to exit Nano.
+
+   
+
 
