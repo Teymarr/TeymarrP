@@ -16,26 +16,6 @@ With a robust foundation in cybersecurity principles and practical applications,
 - **ArcX**: Cyber Threat Intelligence Practitioner (CTI)
 
 
-
-## **Certificate of Completion**
-**Introduction to Network Analysis**:
-Demonstrated understanding of basic networking fundamentals, including analyzing PCAP files using Wireshark and TCPDump. Analyzed malicious traffic from mock compromised systems.
-
-**Introduction to OSINT**:
-Proficient in Open Source Intelligence (OSINT) tools and techniques. Applied OSINT methodologies to support defenders, attackers, and businesses effectively.
-
-**Introduction to Digital Forensics**:
-Gained expertise in Linux file structures, command-line navigation, zip cracking, steganography, and forensics fundamentals. Conducted a forensic investigation on a mock disk image.
-
-**Introduction to Threat Hunting**:
-Skilled in collecting and correlating indicators of compromise (IOC) to identify malware using tools such as Redline and IOC Editor.
-
-**Introduction to Vulnerability Management**:
-Experienced in vulnerability management processes, conducting scans with Nessus, analyzing scan results, and prioritizing remediation based on severity.
-
-**Introduction to Dark Web Operations**:
-Acquired knowledge of clear, deep, and dark web operations, including law enforcement, security team, and criminal activities. Conducted actionable intelligence collection from dark web sites.
-
 ## **Skills**
 **Cybersecurity Skills**:
 Incident Response, Threat Analysis, Security Operations, Cyber Threat Detection, Vulnerability Assessment, Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK).
