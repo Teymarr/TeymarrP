@@ -7,8 +7,6 @@ I bring expertise in dark web intelligence, leveraging tools like the Tor browse
 
 **If you are interested, you can explore some of my favorite projects I have worked on in my free time at the bottom of the page.**
 
-With a robust foundation in cybersecurity principles and practical applications, I am motivated to confront emerging threats and fortify digital environments. **If you require my assistance, please find my contact information at the bottom of this page**.
-
 ## **Certifications**:
 - **Security Blue Team**: Level 1 (BTL1)
 - **CompTIA**: Security+
