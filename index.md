@@ -17,23 +17,20 @@ With a robust foundation in cybersecurity principles and practical applications,
 
 
 ## **Skills**
-**Cybersecurity Skills**:
-Incident Response, Threat Analysis, Security Operations, Cyber Threat Detection, Vulnerability Assessment, Cybersecurity Frameworks (e.g., NIST, MITRE ATT&CK).
+**Digital Forensics & Investigative Skills:**
+Metadata Extraction, Command-Line Proficiency (Linux and macOS), Geolocation Analysis, Reverse Image Search, Digital Media Evidence Analysis, Critical Thinking, Problem Solving, Hashing Algorithms (SHA-1, MD5, SHA-256), Encoding/Decoding (Base64), Evidence Collection, Cyber Threat Intelligence, and Hexadecimal Analysis (Hex Fiend).
 
-**Digital Forensics & Investigative Skills**:
-Metadata Extraction, Command-Line Proficiency, Geolocation Analysis, Reverse Image Search, Digital Media Evidence Analysis, Critical Thinking, and Problem Solving.
+**Dark Web & Ethical Hacking:**
+Dark Web Navigation, Credential Generation and Decryption, Digital Content Forensics, Website Element Inspection, Investigative Research, Evidence Collection, Ethical Hacking, and Bash Scripting.
 
-**Dark Web & Ethical Hacking**:
-Dark Web Navigation, Credential Generation and Decryption, Base64 Encoding/Decoding, Digital Content Forensics, Website Element Inspection, Investigative Research, and Evidence Collection.
+**Programming & Automation:**
+Python, Bash Scripting, Ruby, Data Analytics, Cybersecurity Automation, Git, Jekyll (for GitHub Pages), Docker, and Zsh Shell Scripting.
 
-**Programming & Automation**:
-Python, Bash Scripting, Data Analytics, Cybersecurity Automation, Git, Jekyll (for GitHub Pages), Docker.
+**Networking:**
+TCP/IP, DNS, VPN, Firewalls, IDS/IPS, OpenVPN, Network Security, WiFi Analysis, IP:PORT Access, Apache2 Server Configuration.
 
-**Networking**:
-TCP/IP, DNS, VPN, Firewalls, IDS/IPS, OpenVPN, Network Security, WiFi Analysis.
-
-**Tools & Technologies**:
-Tor Browser, ExifTool, TinEye, Splunk, Wireshark, Nmap, Metasploit, Inspect Element, Nessus, Snort, Burp Suite, CyberChef, Google Earth, VirtualBox/VMware, Xcode, GitHub.
+**Tools & Technologies:**
+Tor Browser, ExifTool, TinEye, Splunk, Wireshark, Nmap, Metasploit, Inspect Element, Nessus, Snort, Burp Suite, CyberChef, Google Earth, VirtualBox/VMware, UTM (for Virtual Machines), VirusTotal, Xcode, GitHub, Homebrew, and SIEM Tools.
 
 **Operating Systems**:
 macOS, Linux (Ubuntu, Kali), Docker.
