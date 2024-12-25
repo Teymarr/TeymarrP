@@ -103,7 +103,7 @@ This single action was responsible for triggering the execution of **cmd.exe.**
 
 **Suspicious /OpenAction Elements:** One.
 
-$$ **Conclusion**
+## **Conclusion**
 This investigation showcased the risks of suspicious files on USB drives. By combining tools like VirusTotal, Hex Fiend, and macOS terminal commands, I successfully identified the malicious intent and behavior of the files. This reinforces the importance of robust endpoint protection and training for employees to handle USB devices and suspicious emails cautiously.
 
 
