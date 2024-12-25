@@ -1,5 +1,5 @@
 ---
-title: "Suspicious U.S.B-Stick"
+title: "Suspicious U.S.B Drive"
 date: 2024-12-25
 layout: post
 ---
@@ -12,10 +12,15 @@ One of our clients informed us they recently suffered an employee data breach. A
 Here were the objectives we needed to solve:
 
 **What file is the autorun.inf running?**
+
 **Does the PDF file pass the VirusTotal scan?**
+
 **Does the file have the correct magic number?**
+
 **What OS type can the file exploit?**
+
 **A Windows executable is mentioned in the PDF file; what is it?**
+
 **How many suspicious /OpenAction elements does the file have?**
 
 ## **Initial Analysis**
@@ -45,10 +50,10 @@ This showed that the autorun.inf file was configured to execute the README.pdf f
 ## **Checking the PDF's Magic Number**
 To verify if the PDF file had the correct magic number (a unique identifier at the start of the file that indicates its format), I used the macOS terminal:
 
-Command Used:
+**Command Used:**
 ![ray-so-export-2](https://github.com/user-attachments/assets/9666ffa8-3156-45a4-9d69-c69292a74fa0)
 
-Output: 
+**Output:**
 ![ray-so-export-3](https://github.com/user-attachments/assets/1fc46e1d-7e6f-434f-a95f-2846a5a5435b)
 
 This confirmed that the file's magic number (2550 4446 = %PDF) was valid for a PDF, specifically version 1.7. The PDF was correctly identified as a valid document.
@@ -67,7 +72,7 @@ Searching for **/OpenAction:**
 Using Hex Fiend’s search function, I located an **/OpenAction** element pointing to object 27 in the PDF.
 The **/OpenAction** directive is often used in malicious PDFs to automatically execute commands or scripts when the file is opened.
 
-Object 27 Analysis:
+**Object 27 Analysis:**
 The object revealed a /Launch command designed to execute:
 ![ray-so-export-4](https://github.com/user-attachments/assets/ce91e71a-ff36-4f6b-b9cd-6c6c12235888)
 
@@ -80,21 +85,28 @@ This confirmed the malicious behavior of the PDF, which was engineered to exploi
 How Many Suspicious /OpenAction Elements?
 From the Hex Fiend analysis:
 
-Finding /OpenAction: Only one /OpenAction element was found in the PDF.
-This single action was responsible for triggering the execution of cmd.exe.
-Conclusion: The PDF contained one suspicious /OpenAction element.
+**Finding /OpenAction:** Only one /OpenAction element was found in the PDF.
 
-Summary of Findings
-File Executed by autorun.inf: README.pdf
-Does the PDF Pass VirusTotal?: No, flagged by NANO-Antivirus.
-Correct Magic Number: Yes, %PDF-1.7.
-OS Targeted: Windows.
-Windows Executable Mentioned: cmd.exe.
-Suspicious /OpenAction Elements: One.
-Conclusion
+This single action was responsible for triggering the execution of **cmd.exe.**
+**Conclusion:** The PDF contained one suspicious /OpenAction element.
+
+## **Summary of Findings**
+**File Executed by autorun.inf:** README.pdf
+
+**Does the PDF Pass VirusTotal?:** No, flagged by NANO-Antivirus.
+
+**Correct Magic Number:** Yes, %PDF-1.7.
+
+**OS Targeted:** Windows.
+
+**Windows Executable Mentioned:** cmd.exe.
+
+**Suspicious /OpenAction Elements:** One.
+
+$$ **Conclusion**
 This investigation showcased the risks of suspicious files on USB drives. By combining tools like VirusTotal, Hex Fiend, and macOS terminal commands, I successfully identified the malicious intent and behavior of the files. This reinforces the importance of robust endpoint protection and training for employees to handle USB devices and suspicious emails cautiously.
 
-Would you like to learn how to analyze similar files? Let’s talk forensics!
+
 
 
 
