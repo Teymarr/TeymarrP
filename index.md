@@ -1,6 +1,6 @@
 Home
 
-## **Hey! I'm Teymarr** 👋
+## **Hey! I'm Malek** 👋
 As a 20-year-old undergraduate specializing in Blue Team operations, I have found my passion in digital forensics, focusing on the recovery, analysis, and interpretation of digital evidence to support investigations. My skills include metadata extraction, hexadecimal analysis (Hex Fiend), and hashing algorithms such as SHA-1, MD5, and SHA-256. I am adept at using terminal commands and Bash scripting to address complex cybersecurity challenges.
 
 I bring expertise in dark web intelligence, leveraging tools like the Tor browser for investigative research, and I utilize platforms such as VirusTotal for malware analysis and threat intelligence. My experience in OSINT techniques and the use of advanced tools like Wireshark, Nmap, and CyberChef ensures that I effectively analyze and secure digital environments.
