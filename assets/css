@@ -1,12 +1,1 @@
-body {
-    background-color: #121212; /* Dark background color */
-    color: #ffffff; /* White text */
-}
 
-a {
-    color: #4caf50; /* Optional: Change hyperlink color to something more visible */
-}
-
-a:hover {
-    color: #81c784; /* Optional: Lighter green for hover effect */
-}
