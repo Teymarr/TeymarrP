@@ -1,5 +1,5 @@
 
-theme: minima
+theme: jekyll-theme-tactile
 title: My Portfolio
 description: "Welcome"
 url: "https://username.github.io"  # Replace with your actual URL
