@@ -6,3 +6,5 @@ url: "https://username.github.io"  # Replace with your actual URL
 # _config.yml
 sass:
   style: compressed
+minima:
+  skin: dark
