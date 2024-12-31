@@ -5,7 +5,10 @@ As a 20-year-old undergraduate specializing in Blue Team operations, I have foun
 
 I bring expertise in dark web intelligence, leveraging tools like the Tor browser for investigative research, and I utilize platforms such as VirusTotal for malware analysis and threat intelligence. My experience in OSINT techniques and the use of advanced tools like Wireshark, Nmap, and CyberChef ensures that I effectively analyze and secure digital environments.
 
-**If you are interested, you can explore some of my favorite projects I have worked on in my free time at the bottom of the page.**
+**If you are interested, you can explore some of my favorite personal and simulated projects I have worked on in my free time at the bottom of the page.**
+
+## Contact Information
+- **TEYMARR.PAGE@PROTON.ME**
 
 ## **Certifications**:
 - **Security Blue Team**: Level 1 (BTL1)
@@ -44,8 +47,3 @@ macOS, Linux (Ubuntu, Kali), Docker.
 **Bachelor of Science**: in Cybersecurity with specializations in Python & Data Analytics, Intelligence & Homeland Security.
 
 **Affiliations**: National Social Science Association, The Association of Certified Fraud Examiners, Emergency Management & Homeland Security, International Leadership Association.
-
-## Contact Information
-
-For inquiries, collaborations, or professional connections, reach out via:
-- **TEYMARR.PAGE@PROTON.ME**
