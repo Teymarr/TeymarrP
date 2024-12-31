@@ -1,9 +1,6 @@
-/* Custom Styles */
-body {
-  font-family: 'Times New Roman', serif;
-  text-align: center; /* Centers the text */
-}
+---
+---
 
-h1, h2, h3, h4, h5, h6, p, blockquote, li {
-  text-align: center; /* Centers headers, paragraphs, quotes, and list items */
-}
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
