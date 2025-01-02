@@ -7,9 +7,6 @@ I bring expertise in dark web intelligence, leveraging tools like the Tor browse
 
 **If you are interested, you can explore some of my favorite personal and simulated projects I have worked on in my free time at the bottom of the page.**
 
-## Contact Information
-- **TEYMARR.PAGE@PROTON.ME**
-
 ## **Certifications**:
 - **Security Blue Team**: Level 1 (BTL1)
 - **CompTIA**: Security+
@@ -36,7 +33,7 @@ TCP/IP, DNS, VPN, Firewalls, IDS/IPS, OpenVPN, Network Security, WiFi Analysis, 
 Tor Browser, ExifTool, TinEye, Splunk, Wireshark, Nmap, Metasploit, Inspect Element, Nessus, Snort, Burp Suite, CyberChef, Google Earth, VirtualBox/VMware, UTM (for Virtual Machines), VirusTotal, Xcode, GitHub, Homebrew, and SIEM Tools.
 
 **Operating Systems**:
-macOS, Linux (Ubuntu, Kali), Docker.
+macOS, Linux, Unix, (Darwin)
 
 
 ## **Education**
