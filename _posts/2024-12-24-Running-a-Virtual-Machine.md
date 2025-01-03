@@ -3,7 +3,7 @@ title: "Running a Virtual Machine (VM)"
 date: 2024-12-24
 layout: post
 ---
-Hello everyone, Teymarr here! Today, I’m recounting my full experience setting up a Windows on ARM virtual machine (VM) on my Apple Silicon (M2) Mac. I started with UTM, navigated through numerous dependency hurdles, removed references to chntpw, and overcame unexpected folder-structure issues. In the end, I successfully created a working Windows on ARM ISO using UUP Dump. Below is the detailed blog post capturing every twist and turn along the way.
+Hello everyone, Malek here! Today, I’m recounting my full experience setting up a Windows on ARM virtual machine (VM) on my Apple Silicon (M2) Mac. I started with UTM, navigated through numerous dependency hurdles, removed references to chntpw, and overcame unexpected folder-structure issues. In the end, I successfully created a working Windows on ARM ISO using UUP Dump. Below is the detailed blog post capturing every twist and turn along the way.
 
 ## **Why Run Windows on ARM on an M2 Mac?**
 
